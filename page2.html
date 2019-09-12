@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title>Referrer Property</title> 
+</head> 
+  
+<body> 
+    <h1 style="color: green;">GeeksForGeeks</h1> 
+    <h2>Page 1</h2> 
+    <p>Click on the below links to go to the other pages</p> 
+    <a href="index.html">Go to index</a> 
+    <p> 
+        <b>You are referred to this page by:</b> 
+    </p> 
+    <div class="referrer"></div> 
+    <script> 
+        // access the referrer property 
+        let referrer = document.referrer; 
+  
+        // replace div with the referrer link 
+        document.querySelector('.referrer').innerHTML =  
+            referrer; 
+    </script> 
+  
+</body> 
+  
+</html> 
