@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Login Form Design One | Fazt</title>
-    <link rel="stylesheet" href="/css/master.css">
-    <style>
-body {
-	background-image: url("img/bg.jpeg");
-        background-repeat:no-repeat;
-       background-size:cover;
-} 
-
-</style>
-
+<!DOCTYPE html> 
+<html> 
   
-
-
-  </head>
-  <body>
+<head> 
+    <title>Referrer Property</title> 
+</head> 
   
-  <p> 
+<body> 
+    <h1 style="color: green;">GeeksForGeeks</h1> 
+    <h2>index Page</h2> 
+    <p>Click on the below links to go to the other pages</p> 
+    <a href="page2.html">Go to Page 2</a> 
+    <p> 
         <b>You are referred to this page by:</b> 
     </p> 
     <div class="referrer"></div> 
@@ -30,38 +21,8 @@ body {
         // replace div with the referrer link 
         document.querySelector('.referrer').innerHTML =  
             referrer; 
-            alert(document.referrer);
-
     </script> 
   
-
-    <div class="login-box">
-      <img src="img/nick.png" class="avatar" alt="Avatar Image">
-      <h1>Login Here</h1>
-      <a href="page2.html">Go to Page 2</a> 
-      <form>
-        <!-- USERNAME INPUT -->
-        <label for="username">Username</label>
-        <input type="text" placeholder="Enter Username">
-        <!-- PASSWORD INPUT -->
-        <label for="password">Password</label>
-        <input type="password" placeholder="Enter Password">
-        <input type="submit" value="Log In">
-        <a href="#">Lost your Password?</a><br>
-        <a href="#">Don't have An account?</a>
-      </form>
-    </div>
-  </body>
-  <TR>
-    <TD class = "select">Online Password (Repeated)         
-    </TD>   
-    <TD ALIGN="center">
-       <select>        
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-       </select>
-    </TD>        
-</TR>
-</html>
+</body> 
+  
+</html> 
